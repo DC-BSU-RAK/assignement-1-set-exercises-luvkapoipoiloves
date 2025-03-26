@@ -1,0 +1,68 @@
+/* Apply a dark brown background with light text */
+body {
+    background-color: #3b2f2f; /* Dark brown background */
+    color: #f5e8c7; /* Light beige text for readability */
+    font-family: Arial, sans-serif; /* Set a clean and readable font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for recipe content */
+.container {
+    max-width: 800px; /* Restrict width for better readability */
+    background-color: #4d3d3d; /* Slightly lighter brown background for contrast */
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}
+
+/* Style the main heading */
+h1 {
+    color: #ffcc66; /* Golden color for highlight */
+    text-align: center;
+}
+
+/* Subheadings */
+h2 {
+    color: #e6b800; /* Yellowish color for section titles */
+    border-bottom: 2px solid #e6b800; /* Underline effect for clarity */
+    padding-bottom: 5px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 18px; /* Set font size for readability */
+    line-height: 1.6; /* Improve spacing between lines */
+}
+
+/* Center align and style special text */
+.center-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style the unordered list (ingredients) */
+ul {
+    list-style-type: square; /* Use square bullets for uniqueness */
+}
+
+/* Style the ordered list (method steps) */
+ol {
+    list-style-type: decimal; /* Ensure numerical ordering */
+}
+
+/* Style individual list items */
+li {
+    margin: 8px 0; /* Add spacing between items */
+}
+
+/* Style links (if needed in the future) */
+a {
+    color: #ffcc66; /* Golden color for links */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline when hovering */
+}
