@@ -1,90 +1,68 @@
-/* Apply a dark wood-textured background with light text */
+/* Apply a dark brown background with light text */
 body {
-    background-color: #2d1f1f; /* Dark brown background for a rustic feel */
-    color: #f5e8c7; /* Light beige text for readability */
-    font-family: "Poppins", sans-serif; /* Modern clean font */
+    background-color: #3b2f2f;
+    color: #f5e8c7;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-/* Background container with a soft glow effect */
-.container {
-    max-width: 800px;
-    background: linear-gradient(to bottom, #4d2e2e, #3b2f2f);
-    padding: 20px 30px;
-    margin: 30px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid #5a4033;
+    padding: 20px;
 }
 
 /* Style the main heading */
 h1 {
     color: #ffcc66;
     text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-size: 42px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 /* Subheadings */
 h2 {
     color: #e6b800;
-    border-bottom: 3px dashed #e6b800;
+    border-bottom: 2px solid #e6b800;
     padding-bottom: 5px;
-    margin-top: 20px;
-    font-size: 26px;
 }
 
 /* Style paragraphs */
 p {
     font-size: 18px;
-    line-height: 1.8;
-    text-align: center;
-    font-style: italic;
+    line-height: 1.6;
 }
 
-/* Center align and add bold effect to special text */
+/* Style the unordered list */
+ul {
+    list-style-type: square;
+}
+
+/* Style the ordered list */
+ol {
+    list-style-type: decimal;
+}
+
+/* Style list items */
+li {
+    margin: 8px 0;
+}
+
+/* Add spacing and design to the content */
+.container {
+    max-width: 800px;
+    background-color: #4d3d3d;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Center align and add style to text */
 .center-text {
     text-align: center;
     font-weight: bold;
 }
 
-/* Style the unordered list (ingredients) */
-ul {
-    list-style-type: "🍗"; /* Custom bullet point */
-    padding-left: 20px;
+/* Style links if needed */
+a {
+    color: #ffcc66;
+    text-decoration: none;
 }
 
-/* Style the ordered list (method steps) */
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
-
-/* Style individual list items */
-li {
-    margin: 12px 0;
-    padding: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-/* Hover effect for list items */
-li:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: scale(1.05);
-}
-
-/* Footer text styling */
-.footer {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 20px;
-    opacity: 0.7;
+a:hover {
+    text-decoration: underline;
 }
