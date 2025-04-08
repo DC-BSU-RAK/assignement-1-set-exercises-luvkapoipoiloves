@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chapter 3 - Three Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef6f9;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .image-container {
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 400px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      filter: contrast(90%) saturate(110%) brightness(1.05);
+      transition: 0.3s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      filter: grayscale(30%) brightness(1.1);
+    }
+
+    .caption {
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mountain & Lake Serenity</h1>
+
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1554629947-334ff61d85dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW58ZW58MHx8MHx8fDA%3D"
+         alt="Peaceful mountain landscape with a path" 
+         title="Tranquil Mountain Path" />
+    <div class="caption">
+      Photo by <a href="https://unsplash.com/@mischievous_penguins" target="_blank">Mischievous Penguins</a> on Unsplash – Free to use under <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>.
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img src="https://plus.unsplash.com/premium_photo-1669741908255-4c4132306000?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D"
+         alt="Calm lake with mist and trees" 
+         title="Misty Lake Reflections" />
+    <div class="caption">
+      Premium photo by Unsplash Contributor – Free to use under <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>.
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+         alt="Snow-covered mountains under pastel sky" 
+         title="Snowy Mountain Peaks" />
+    <div class="caption">
+      Photo by <a href="https://unsplash.com/@neom" target="_blank">NEOM</a> on Unsplash – Free to use under <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>.
+    </div>
+  </div>
+
+</body>
+</html>
