@@ -1,0 +1,41 @@
+/* Targeting different divs for their specific styles */
+#A {
+    padding: 15px;
+    margin: 10px;
+    background-color: #fffcfc; 
+    border: 5px solid #ab00ee; 
+    box-shadow: 10px 5px 5px red;
+}
+
+#B {
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffffff; 
+    border: 5px solid #00ff00; 
+    /* Shadow effects emphasises the shape inside */
+    box-shadow: inset 6px 10px 5px 1px;
+   
+}
+
+#C {
+    background-color: #ffffff; 
+    border: 5px solid #ff6600; 
+    box-shadow:
+    /* 3 colors added  */
+        0 0 0 6px #003cff, 
+        0 0 0 12px #fd0101, 
+        0 0 0 18px #026117; 
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Style for div#D */
+#D {
+    background-color: #ffffff; 
+    border: 5px solid #820505; 
+    text-shadow: /* Drop Shadow on the Image */
+    4px 4px 0 #000000; 
+    padding: 15px;
+    margin: 10px;
+}
