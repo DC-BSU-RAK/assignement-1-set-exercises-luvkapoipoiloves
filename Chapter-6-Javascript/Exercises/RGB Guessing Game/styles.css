@@ -1,4 +1,13 @@
 /* General body styling */
+
+body {
+    background: url('https://wallpapers.com/images/hd/wave-in-rgb-theme-0pv75a8yu54m26u4.web') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +18,7 @@ body {
     align-items: center;
     height: 100vh;
   }
-  
+
   /* Main container for the game */
   .container {
     text-align: center;
