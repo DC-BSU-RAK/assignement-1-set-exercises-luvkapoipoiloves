@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- RGB Colour Guessing Game -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RGB Guessing Game</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Link to external CSS -->
+</head>
+<body>
+  <div class="container">
+    <!-- Game Title -->
+    <h1>RGB Colour Guessing Game</h1>
+
+    <!-- RGB Color to Guess -->
+    <div id="rgb-display">rgb(?, ?, ?)</div>
+
+    <!-- Feedback to user -->
+    <div id="message"></div>
+
+    <!-- Color Choices -->
+    <div id="options-container">
+      <!-- Color boxes will be injected here -->
+    </div>
+
+    <!-- Lives remaining -->
+    <div id="lives">Lives: 3</div>
+
+    <!-- Final score and replay button -->
+    <div id="end-screen" class="hidden">
+      <p id="final-score"></p>
+      <button id="replay-button">Play Again</button>
+    </div>
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="Java.js"></script>
+</body>
+</html>

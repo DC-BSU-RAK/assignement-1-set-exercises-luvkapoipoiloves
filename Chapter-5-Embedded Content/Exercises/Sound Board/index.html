@@ -9,13 +9,19 @@
 <body>
 
   <header>
+    <!-- Top section containing the heading/title -->
     <h1>Meme Soundboard</h1>
 
     <main class="soundboard">
+         <!-- Main content area with a class for styling the soundboard -->
         
+          <!-- Each button plays a different sound when clicked -->
         <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <!-- When clicked, plays the associated audio -->
             <span class="button-text">Ah-ha!</span>
+            <!-- Label shown on the button -->
             <audio src="audio/ah-ha.mp3"></audio>
+            <!-- Audio element containing the sound to play -->
         </button>
 
         <button class="sound-button" onclick="this.querySelector('audio').play()">

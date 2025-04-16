@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Embedded Video</title>
   <style>
+    /* Styles for the entire page */
     body {
       margin: 0;
       display: flex;
@@ -12,6 +13,7 @@
       height: 100vh;
       background-color: #f0f0f0;
     }
+    /* Styles specifically for the video element */
     video {
       max-width: 90%;
       max-height: 90%;
@@ -21,8 +23,11 @@
   </style>
 </head>
 <body>
+  <!-- Embedded video element -->
 
   <video src="d:\0415(1).mp4" poster="c:\Users\xfx\Pictures\embed.JPG" loop autoplay muted controls>
+     
+    <!-- Text fallback for unsupported browsers -->
     Your browser does not support the video tag.
   </video>
 

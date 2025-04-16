@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main container for the game */
+  .container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Game title */
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* RGB color to guess */
+  #rgb-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Message/feedback to user */
+  #message {
+    margin: 10px 0;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  /* Container for color options */
+  #options-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  /* Individual color option boxes */
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  /* Hover effect for color boxes */
+  .color-box:hover {
+    transform: scale(1.05);
+    border: 2px solid #333;
+  }
+  
+  /* Lives counter */
+  #lives {
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 15px;
+  }
+  
+  /* End screen styles */
+  #end-screen {
+    margin-top: 20px;
+  }
+  
+  /* Hidden class to toggle visibility */
+  .hidden {
+    display: none;
+  }
+  
+  /* Replay button */
+  #replay-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #replay-button:hover {
+    background-color: #218838;
+  }
+  
