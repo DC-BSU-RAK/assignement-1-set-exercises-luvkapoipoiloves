@@ -1,87 +1,108 @@
-/* Reset default margin and padding for all elements */
-body, h1, h2, p, ul {
+/* General Body Style */
+body {
+    background-color: #1d1f1c; /* Dark Minecraft-like background */
+    color: #e0e0d1; /* Light gray text */
+    font-family: 'Press Start 2P', monospace; /* Pixel-style font */
     margin: 0;
     padding: 0;
 }
 
-/* Apply a dark theme with pixelated game feel */
-body {
-    background-color: #2b2b2b; /* Dark gray background */
-    color: #f5f5f5; /* Light text for readability */
-    font-family: "Arial", sans-serif; /* Clean sans-serif font */
-}
-
-/* Navigation Bar Styling */
+/* Navigation bar at the top */
 nav {
-    background-color: #008000; /* Minecraft green background */
-    padding: 15px;
-    position: fixed; /* Fixed positioning for sticky nav bar */
-    top: 0;
+    background-color: #228b22; /* Minecraft grass green */
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
     width: 100%;
-    text-align: center; /* Center the links in the navbar */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow below navbar for effect */
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Navigation links */
 nav ul {
-    list-style: none; /* Removes default bullet points from the list */
+    list-style-type: none;
 }
 
 nav ul li {
-    display: inline; /* Display the list items inline (horizontally) */
-    margin: 0 15px; /* Spacing between the list items */
+    display: inline;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #fff; /* White text for the links */
-    text-decoration: none; /* Removes underline from links */
-    font-size: 18px; /* Text size */
-    font-weight: bold; /* Bold font style */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-/* Apply hover effect for navigation links */
-nav ul li a:hover {
-    text-decoration: underline; /* Adds underline when hovered over */
-}
-
-/* Main Content Container Styling */
+/* Container for all page content */
 .container {
-    max-width: 800px; /* Limits the container width */
-    margin: 80px auto 20px; /* Adds space above to avoid navbar overlap */
-    padding: 20px; /* Padding inside the content */
+    max-width: 1000px;
+    margin: 100px auto 40px; /* Add spacing for fixed navbar */
+    padding: 0 20px;
 }
 
-/* Section Styling (Background and Borders) */
+/* Section styles */
 section {
-    margin-bottom: 40px; /* Space between sections */
-    padding: 20px; /* Padding inside sections */
-    background: rgba(0, 128, 0, 0.1); /* Light green background */
-    border-left: 5px solid #008000; /* Green border on the left */
-    border-radius: 5px; /* Rounded corners for sections */
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: rgba(50, 50, 50, 0.3);
+    border-left: 5px solid #00ff00; /* Neon green accent */
+    border-radius: 6px;
 }
 
-/* Headings Styling */
+/* Headings */
 h1, h2 {
-    color: #00ff00; /* Bright neon green for headings */
+    color: #66ff66;
 }
 
-/* Button Styling */
+/* Image styling */
+.image {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+/* Character Grid */
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.character img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    background-color: #333;
+    padding: 5px;
+}
+
+/* Button Style */
 .button-container {
-    text-align: center; /* Centers the button */
-    margin-top: 20px; /* Adds space above the button */
+    text-align: center;
+    margin-top: 20px;
 }
 
 .button {
-    display: inline-block; /* Makes the button inline element */
-    padding: 10px 20px; /* Adds padding inside the button */
-    background-color: #ffcc00; /* Gold color for the button */
-    color: #000; /* Black text color for the button */
-    font-weight: bold; /* Bold font for the button text */
-    text-decoration: none; /* Removes default link styling */
-    border-radius: 5px; /* Rounded corners for the button */
-    transition: 0.3s; /* Smooth transition for hover effect */
+    background-color: #ffd700; /* Minecraft gold */
+    color: #000;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 0 #aaa;
+    display: inline-block;
+    transition: 0.3s;
 }
 
-/* Button Hover Effect */
 .button:hover {
-    background-color: #ff9900; /* Darker gold color when hovered */
+    background-color: #ffb400;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 8px #000;
 }
